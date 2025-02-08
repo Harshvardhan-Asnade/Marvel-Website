@@ -1,0 +1,188 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 8px 16px;
+}
+
+.logo2 {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: auto;
+}
+
+.logo2 img {
+    height: 50px;
+    width: auto;
+}
+
+.imagscr img {
+    height: 50px;
+    width: auto;
+    margin-left: 10px;
+}
+
+.navg nav {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+}
+
+.navg a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.navg a:hover {
+    background-color: rgb(249, 4, 4);
+    border-radius: 5px;
+}
+
+form {
+    background-color: #1e1e1e;
+}
+
+.ironman {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 20px;
+    border: 2px solid #000;
+    margin: 10px;
+}
+
+.ironman img {
+    border-radius: 10px;
+}
+
+.ironman h2 {
+    font-family: Verdana;
+    color: red;
+    font-style: bold italic;
+    font-size: 38px;
+
+}
+
+#Video {
+    align-items: center;
+    text-align: center;
+}
+
+.video12 video {
+    align-items: center;
+}
+
+.video12 {
+    padding-left: 1;
+}
+
+.video12 h2 {
+    font-family: Verdana;
+    align-items: center;
+    text-align: center;
+    color: rgb(255, 0, 0);
+    font-style: bold italic;
+    font-size: 28px;
+    padding-bottom: 0%;
+    margin-bottom: 0.1;
+    padding-top: 0.1;
+}
+
+#AvengersCast {
+    font-family: Verdana;
+}
+
+#AvengersCast h2 {
+    text-align: center;
+    color: #f60000;
+    font-size: 2rem;
+    margin-bottom: 0.1%;
+}
+
+.cast hr {
+    margin-top: 0.1%;
+}
+
+.video12 hr {
+    margin-top: 0.1%;
+}
+
+table {
+    width: 100%;
+}
+
+th {
+    background-color: #ff0000;
+    color: white;
+    padding: 12px;
+    text-align: left;
+}
+
+td {
+    padding: 12px;
+    text-align: left;
+}
+
+.footer {
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    font-family: Verdana;
+}
+
+.footer h3 {
+    font-size: 20px;
+}
+
+.clickhere {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    display: inline-block;
+    background: blue;
+    font-family: Verdana, sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+    border: none;
+    border-radius: 16px;
+    font-size: 1.5em;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.villain {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 20px;
+    border: 2px solid #000;
+    margin: 10px;
+}
+
+.villain h2 {
+    font-family: Verdana;
+    color: red;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 38px;
+}
